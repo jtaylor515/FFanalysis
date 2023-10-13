@@ -1,15 +1,25 @@
 import nbformat
+import os
 
-# Specify the input Jupyter Notebook file
-input_nb_file = "DataPreprocess.ipynb"
+# List of input Jupyter Notebook files
+input_nb_files = [
+    "DataPreprocess.ipynb",
+    "DataPostprocess.ipynb",
+    # Add more file names as needed
+]
 
-# Specify the output Python script file
-output_py_file = "loadData.py"
+# Output directory for Python script files
+output_directory = "python_scripts"
 
-def extract_code_cells(input_file, output_file):
+def extract_code_cells(input_file, output_directory):
+    # Create the output directory if it doesn't exist
+    os.makedirs(output_directory, exist_ok=True)
+
     with open(input_file, "r") as notebook_file:
         notebook = nbformat.read(notebook_file, as_version=4)
-    
+
+    output_file = os.path.join(output_directory, os.path.splitext(os.path.basename(input_file))[0] + ".py")
+
     with open(output_file, "w") as python_file:
         for cell in notebook.cells:
             if cell.cell_type == "code":
@@ -19,4 +29,5 @@ def extract_code_cells(input_file, output_file):
                 python_file.write(f"### END OF CODE CELL ###\n\n")
 
 if __name__ == "__main__":
-    extract_code_cells(input_nb_file, output_py_file)
+    for input_nb_file in input_nb_files:
+        extract_code_cells(input_nb_file, output_directory)
