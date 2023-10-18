@@ -5,7 +5,9 @@ import os
 input_nb_files = [
     "DataPreprocess.ipynb",
     "DataPostprocess.ipynb",
-    # Add more file names as needed
+    "RandomForest.ipynb",
+    "LinearRegression.ipynb"
+    # add more files as needed
 ]
 
 # Output directory for Python script files
