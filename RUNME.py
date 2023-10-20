@@ -1,18 +1,29 @@
 import subprocess
 import os
 
+# Run 'updateScript.py'
+subprocess.run(["python", "updateScript.py"])
+
+# Get the current working directory
+current_directory = os.getcwd()
+
 # Directory where the Python scripts are located
 script_directory = "python_scripts"
 
-if __name__ == "__main":
-    # Run 'updateScript.py'
-    subprocess.run(["python", "updateScript.py"])
+# Combine the current directory and the script directory
+full_directory = current_directory + "\\" + script_directory
 
-    # List all Python script files in the specified directory
-    python_script_files = [f for f in os.listdir(script_directory) if f.endswith(".py")]
+# Change the working directory to the script_directory
+os.chdir(full_directory)
 
-    for script_file in python_script_files:
-        script_path = os.path.join(script_directory, script_file)
+# List all Python script files in the specified directory
+python_script_files = [f for f in os.listdir(full_directory) if f.endswith(".py")]
+print(python_script_files)
+
+for script_file in python_script_files:
+    script_path = os.path.join(full_directory, script_file)
         
-        # Run each Python script using subprocess.run
-        subprocess.run(["python", script_path])
+    # Run each Python script using subprocess.run
+    subprocess.run(["python", script_path])
+
+print("Dataset Update and Prediction Complete")

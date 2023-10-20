@@ -1,10 +1,11 @@
+import subprocess
 import nbformat
 import os
 
 # List of input Jupyter Notebook files
 input_nb_files = [
     "DataPreprocess.ipynb",
-    "DataPostprocess.ipynb",
+    # "DataPostprocess.ipynb",
     "RandomForest.ipynb",
     "LinearRegression.ipynb"
     # add more files as needed
@@ -33,3 +34,5 @@ def extract_code_cells(input_file, output_directory):
 if __name__ == "__main__":
     for input_nb_file in input_nb_files:
         extract_code_cells(input_nb_file, output_directory)
+
+    print("Files are updated. RUNME.py can continue running")
