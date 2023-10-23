@@ -1,6 +1,10 @@
 import subprocess
 import os
 
+## INSTALL ALL NECESSARY PACKAGES
+# Run 'installs.py'
+subprocess.run(["python", "installs.py"])
+
 # Run 'updateScript.py'
 subprocess.run(["python", "updateScript.py"])
 
