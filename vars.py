@@ -1,6 +1,6 @@
 # vars.py
 
-"""This module defines project-level constants"""
+"""This module defines project-level variables"""
 
 gpu = False
 positions = ["qb"]
