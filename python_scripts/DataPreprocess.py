@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 import nbformat
 from io import StringIO
 import os
+import re
+import numpy as np
 ### END OF CODE CELL ###
 
 ### CODE CELL ###
@@ -32,8 +34,10 @@ for url in urls:
         # Find the table on the page
         table = soup.find('table')
 
-        # Read the table into a Pandas DataFrame
-        df = pd.read_html(str(table), header=[0, 1])[0]
+        table_string = str(table)
+        table_io = StringIO(table_string)
+        # Read the table into a DataFrame
+        df = pd.read_html(table_io)[0]       
         
         # Add a "LOC" column to the DataFrame
         loc = url.split('/')[-1][:2]
@@ -55,14 +59,14 @@ merged_df.reset_index(drop=True, inplace=True)
 # Rename columns as specified
 merged_df = merged_df.rename(columns={"Unnamed: 0_level_0 Rank": "POS RANK", "Unnamed: 1_level_0 Player": "PLAYER", "LOC POS": "POS"})
 
-# Get the current working directory
-current_directory = os.getcwd()
+# # Get the current working directory
+# current_directory = os.getcwd()
 
-# Get the parent directory
-parent_directory = os.path.dirname(current_directory)
+# # Get the parent directory
+# parent_directory = os.path.dirname(current_directory)
 
-# Change the working directory to the parent directory
-os.chdir(parent_directory)
+# # Change the working directory to the parent directory
+# os.chdir(parent_directory)
 
 merged_df.to_csv('datasets/overall_scoring.csv', index=False)
 ### END OF CODE CELL ###
@@ -94,8 +98,8 @@ for url in snap_count_urls:
         # Find the table on the page
         table = soup.find('table')
 
-        # Read the table into a Pandas DataFrame
-        df = pd.read_html(str(table), header=[0])[0]
+        html_content = str(table)
+        df = pd.read_html(StringIO(html_content), header=[0])[0]  
         
         # Add a "POS" column to the DataFrame for snap counts
         pos = url.split('/')[-1][:2]
@@ -110,8 +114,6 @@ snap_count_merged_df = pd.concat(snap_count_data_frames, ignore_index=True)
 
 # If you want to save the data to a CSV file, you can do it like this:
 snap_count_merged_df.to_csv('datasets/snap_counts.csv', index=False)
-
-snap_count_merged_df.head(10)
 ### END OF CODE CELL ###
 
 ### CODE CELL ###
@@ -137,14 +139,13 @@ for page in pages:
             url = f"{base_url}{page}?year={year}&range=week&week={week}"
             urls.append(url)
 
-# Print the list of generated URLs
-for url in urls:
-    print(url)
+# # Print the list of generated URLs
+# for url in urls:
+#     print(url)
 
 ### END OF CODE CELL ###
 
 ### CODE CELL ###
-# Initialize an empty DataFrame to store the data
 final_dataset = pd.DataFrame()
 
 # Iterate through the URLs
@@ -156,10 +157,9 @@ for url in urls:
         # Assuming the data is in a table, you may need to adjust the code based on the actual structure
         table = soup.find('table')
 
-        # Use io.StringIO to wrap the HTML content
+    
         table_string = str(table)
         table_io = StringIO(table_string)
-        
         # Read the table into a DataFrame
         df = pd.read_html(table_io)[0]
 
@@ -169,9 +169,16 @@ for url in urls:
         
         # Extract week value from the URL
         week_value = int(url.split('week=')[1])
+        # Regular expression pattern to match the year
+        pattern = r'year=(\d{4})'
+
+        # Use re.search to find the match
+        match = re.search(pattern, url)
+        year_value = match.group(1)
         
         # Add a new 'Week' column with the week value
         df['WEEK'] = week_value
+        df['YEAR'] = int(year_value)
         
         # Concatenate the DataFrame to the final dataset
         final_dataset = pd.concat([final_dataset, df], ignore_index=True)
@@ -179,7 +186,7 @@ for url in urls:
         print(f"Failed to fetch data from URL: {url}")
 
 # Now, final_dataset contains the combined data with a 'Week' column
-# final_dataset.head(10)
+final_dataset.head(10)
 
 # Combine values in column names (headers) and row 0
 final_dataset.columns = final_dataset.columns.map(' '.join)
@@ -188,12 +195,37 @@ final_dataset.columns = final_dataset.columns.map(' '.join)
 final_dataset.reset_index(drop=True, inplace=True)
 
 # Rename columns as specified
-final_dataset = final_dataset.rename(columns={"Unnamed: 0_level_0 Rank": "POS RANK", "Unnamed: 1_level_0 Player": "PLAYER", "LOC POS": "POS", "WEEK ": "WEEK"})
+final_dataset = final_dataset.rename(columns={"Unnamed: 0_level_0 Rank": "POS RANK", "Unnamed: 1_level_0 Player": "PLAYER", "LOC POS": "POS", "WEEK ": "WEEK", "YEAR ": "YEAR"})
+
+# Create weighted on date column
+# Define a custom function to create a date
+def create_date(row):
+    year = row['YEAR']
+    week = row['WEEK']
+    day_of_week = 1  # You can choose a specific day of the week
+
+    # Create a date by considering the year, week, and day_of_week
+    date = pd.to_datetime(f'{year}-W{week}-{day_of_week}', format='%Y-W%U-%w')
+
+    return date
+
+# Apply the custom function to create the 'Date' column
+final_dataset['DATE'] = final_dataset.apply(create_date, axis=1)
+
+# Define your custom weight function, for example, exponential decay
+def calculate_weight(row, date_column, decay_factor):
+    days_ago = (pd.to_datetime('now') - row[date_column]).days  # Calculate days ago
+    weight = np.exp(-decay_factor * days_ago)  # Exponential decay function
+    return weight
+
+# Define a decay factor (you can adjust this value based on the desired decay rate)
+decay_factor = 0.1  # Adjust as needed
+
+# Apply the weight function to create a 'Weight' column
+final_dataset['WEIGHT'] = final_dataset.apply(calculate_weight, args=('DATE', decay_factor), axis=1)
+
 
 final_dataset.to_csv('datasets/weekly_scoring.csv', index=False)
-
-# final_dataset.head(10)
-
 
 ## PRINT DATAFRAME DATA
 # Assuming you have a DataFrame named 'df'
@@ -210,8 +242,6 @@ rows_times_columns = num_rows * num_columns
 print(f"Number of Rows: {num_rows}")
 print(f"Number of Columns: {num_columns}")
 print(f"Rows times Columns: {rows_times_columns}")
-
-import os
 
 file_path = "datasets/weekly_scoring.csv"  # Replace with the path to your CSV file
 
@@ -238,7 +268,7 @@ file_paths = ["datasets/"]
 repo_url = "https://github.com/jtaylor515/FFanalysis.git"
 
 # Specify your commit message
-commit_message = "Update files"
+commit_message = "Update dataset files"
 
 # Git commands to add, commit, and push each file in the list
 for file_path in file_paths:
