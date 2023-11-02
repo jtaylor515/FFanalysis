@@ -1,0 +1,20 @@
+ 29-10-2023 14:26:37:113 [pid=2184 tid=2184] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 29-10-2023 14:26:37:114 [pid=2184 tid=2184] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 29-10-2023 14:26:37:114 [pid=2184 tid=2184] WARN   0:172 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 29-10-2023 14:26:37:115 [pid=2184 tid=2184] NOTICE  cufio-drv:705 running in compatible mode
+ 29-10-2023 14:26:37:116 [pid=2184 tid=2184] ERROR  cufio-plat:101 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 29-10-2023 14:26:37:117 [pid=2184 tid=2184] WARN   cufio-plat:429 GPU index 0 NVIDIA RTX A5500 Laptop GPU: Model Not Supported
+ 29-10-2023 14:26:37:118 [pid=2184 tid=2184] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 29-10-2023 14:26:37:245 [pid=2184 tid=2184] ERROR  cufio-topo-udev:431 no device entries present in platform topology
+ 29-10-2023 14:46:53:72 [pid=2538 tid=2538] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 29-10-2023 14:46:53:72 [pid=2538 tid=2538] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 29-10-2023 14:46:53:73 [pid=2538 tid=2538] WARN   0:172 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 29-10-2023 14:46:53:73 [pid=2538 tid=2538] NOTICE  cufio-drv:705 running in compatible mode
+ 29-10-2023 14:46:53:74 [pid=2538 tid=2538] ERROR  cufio-plat:101 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 29-10-2023 14:46:53:75 [pid=2538 tid=2538] WARN   cufio-plat:429 GPU index 0 NVIDIA RTX A5500 Laptop GPU: Model Not Supported
+ 29-10-2023 14:46:53:75 [pid=2538 tid=2538] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 29-10-2023 14:46:53:236 [pid=2538 tid=2538] ERROR  cufio-topo-udev:431 no device entries present in platform topology

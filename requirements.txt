@@ -1,0 +1,10 @@
+nbformat
+pandas
+requests
+bs4
+seaborn
+scikit-learn
+numpy
+# cudf
+# cuml
+# cupy
