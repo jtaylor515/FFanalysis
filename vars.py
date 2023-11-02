@@ -2,7 +2,7 @@
 
 """This module defines project-level variables"""
 
-gpu = False
+gpu = True
 positions = ["qb"]
 
 # Positions Specific Prediction Variables and Variables to Drop
