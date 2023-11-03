@@ -4,25 +4,22 @@ import os
 ## INSTALL ALL NECESSARY PACKAGES
 # Run the command to install packages from requirements.txt
 try:
-    subprocess.check_call(['pip3', 'install', '-r', 'requirements.txt', '-q'])
+    subprocess.check_call(['pip', 'install', '-r', 'requirements_gpu.txt', '-q'])
     print("Successfully installed packages from requirements.txt")
 except subprocess.CalledProcessError as e:
     print(f"Failed to install packages from requirements.txt: {e}")
 
 # Run 'updateScript.py'
-subprocess.run(["python3", "updateScript.py"])
+subprocess.run(["python", "updateScript.py"])
 
 # Get the current working directory
 current_directory = os.getcwd()
 
-# List all Python script files in the specified directory
-python_script_files = [f for f in os.listdir(current_directory) if f.endswith(".py")]
-
 # List of Python script files to run
 python_script_files = [
-    "DataPreprocess.py",
-    "LinearRegression.py",
-    "RandomForest.py",
+    # "DataPreprocess.py"
+    # "LinearRegression.py",
+    # "RandomForest.py",
     # Add more script filenames as needed
 ]
 
@@ -33,6 +30,6 @@ for script_file in python_script_files:
 
     # Run each Python script using subprocess.run with the full path
     print("Running", script_file)
-    subprocess.run(["python3", script_path])
+    subprocess.run(["python", script_path])
 
 print("Dataset Update and Prediction Complete")
