@@ -4,7 +4,7 @@ import os
 ## INSTALL ALL NECESSARY PACKAGES
 # Run the command to install packages from requirements.txt
 try:
-    subprocess.check_call(['pip', 'install', '-r', 'requirements.txt', '-q'])
+    subprocess.check_call(['pip', 'install', '-r', 'requirements.txt', '-q'], shell = True)
     print("Successfully installed packages from requirements.txt")
 except subprocess.CalledProcessError as e:
     print(f"Failed to install packages from requirements.txt: {e}")
