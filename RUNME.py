@@ -22,7 +22,7 @@ print(python_script_files)
 # List of Python script files to run
 python_script_files = [
     # "DataPreprocess.py"
-    "LinearRegression.py",
+    # "LinearRegression.py",
     # "RandomForest.py",
     # Add more script filenames as needed
 ]

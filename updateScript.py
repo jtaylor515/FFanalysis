@@ -32,8 +32,4 @@ if __name__ == "__main__":
     for input_nb_file in input_nb_files:
         extract_code_cells(input_nb_file, output_directory)
 
-    # Remove the "python_scripts" directory if it exists
-    if os.path.exists("python_scripts"):
-        shutil.rmtree("python_scripts")
-
     print("Files are updated. RUNME.py can continue running")
