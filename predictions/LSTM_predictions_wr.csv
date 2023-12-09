@@ -1,0 +1,329 @@
+PLAYER,Predicted_FPTS,TEAM
+CeeDee Lamb (DAL),15.06445,DAL
+Mike Evans (TB),14.677978,TB
+Tank Dell (HOU),11.984317,HOU
+Tyreek Hill (MIA),11.240459,MIA
+Keenan Allen (LAC),11.161191,LAC
+DeVonta Smith (PHI),11.112431,PHI
+Amon-Ra St. Brown (DET),10.7874155,DET
+Jayden Reed (GB),10.718108,GB
+A.J. Brown (PHI),9.869976,PHI
+Brandon Aiyuk (SF),9.094996,SF
+Tyler Lockett (SEA),9.017467,SEA
+Michael Pittman Jr. (IND),8.959321,IND
+Odell Beckham Jr. (BAL),8.893657,BAL
+Jordan Addison (MIN),8.786785,MIN
+Stefon Diggs (BUF),8.756771,BUF
+Jahan Dotson (WAS),8.751672,WAS
+Ja'Marr Chase (CIN),8.619324,CIN
+Noah Brown (HOU),8.616896,HOU
+Brandin Cooks (DAL),8.180165,DAL
+Chris Olave (NO),8.172334,NO
+Courtland Sutton (DEN),8.087044,DEN
+Garrett Wilson (NYJ),7.9213967,NYJ
+Davante Adams (LV),7.8011537,LV
+Calvin Ridley (JAC),7.6706023,JAC
+Amari Cooper (CLE),7.3410606,CLE
+Rashee Rice (KC),7.269465,KC
+Jaxon Smith-Njigba (SEA),7.23607,SEA
+Gabe Davis (BUF),7.110783,BUF
+Jakobi Meyers (LV),7.0130963,LV
+Christian Kirk (JAC),6.995624,JAC
+Jaylen Waddle (MIA),6.995083,MIA
+Khalil Shakir (BUF),6.9825335,BUF
+DeAndre Hopkins (TEN),6.9454255,TEN
+Deebo Samuel (SF),6.839609,SF
+DK Metcalf (SEA),6.7728286,SEA
+Romeo Doubs (GB),6.6285157,GB
+Diontae Johnson (PIT),6.5756793,PIT
+Christian Watson (GB),6.440263,GB
+Puka Nacua (LAR),6.1427765,LAR
+Nico Collins (HOU),6.089619,HOU
+Kendrick Bourne (NE),6.043921,NE
+Terry McLaurin (WAS),5.917364,WAS
+Zay Flowers (BAL),5.8440137,BAL
+Tyler Boyd (CIN),5.825494,CIN
+Isaiah Hodgins (NYG),5.8245087,NYG
+Elijah Moore (CLE),5.6612535,CLE
+KJ Hamler (IND),5.627697,IND
+DJ Moore (CHI),5.525318,CHI
+Josh Downs (IND),5.1967673,IND
+Justin Watson (KC),5.189394,KC
+Joshua Palmer (LAC),4.984138,LAC
+Demario Douglas (NE),4.9474835,NE
+Jerry Jeudy (DEN),4.9376507,DEN
+Jamison Crowder (WAS),4.8826203,WAS
+Michael Gallup (DAL),4.860849,DAL
+Trenton Irwin (CIN),4.696287,CIN
+Scott Miller (ATL),4.6836405,ATL
+Tutu Atwell (LAR),4.671667,LAR
+Marquise Brown (ARI),4.5724106,ARI
+Chris Godwin (TB),4.502621,TB
+Darius Slayton (NYG),4.439356,NYG
+Brandon Powell (MIN),4.39588,MIN
+Jake Bobo (SEA),4.383675,SEA
+Rashid Shaheed (NO),4.3741355,NO
+Jalen Tolbert (DAL),4.3043222,DAL
+Chris Moore (TEN),4.146777,TEN
+Demarcus Robinson (LAR),4.096111,LAR
+Marquez Valdes-Scantling (KC),4.0168157,KC
+Jalin Hyatt (NYG),4.011387,NYG
+George Pickens (PIT),3.96358,PIT
+Rashod Bateman (BAL),3.9065182,BAL
+Sterling Shepard (NYG),3.8993511,NYG
+Curtis Samuel (WAS),3.8223863,WAS
+Parris Campbell (NYG),3.7972577,NYG
+Quentin Johnston (LAC),3.7902396,LAC
+Rondale Moore (ARI),3.7450416,ARI
+Jameson Williams (DET),3.7280402,DET
+Tee Higgins (CIN),3.7200205,CIN
+Dontayvion Wicks (GB),3.7144225,GB
+Nelson Agholor (BAL),3.6997278,BAL
+Adam Thielen (CAR),3.670859,CAR
+KaVontae Turpin (DAL),3.5994766,DAL
+Darnell Mooney (CHI),3.474828,CHI
+Michael Thomas (NO),3.3965447,NO
+Kyle Philips (TEN),3.3736854,TEN
+Cedrick Wilson Jr. (MIA),3.3478768,MIA
+DeAndre Carter (LV),3.343877,LV
+Nick Westbrook-Ikhine (TEN),3.3283508,TEN
+Kalif Raymond (DET),3.3257916,DET
+Dyami Brown (WAS),3.3133924,WAS
+Collin Johnson (CHI),3.3093815,CHI
+K.J. Osborn (MIN),3.298018,MIN
+Marvin Mims Jr. (DEN),3.289411,DEN
+David Moore (TB),3.2514148,TB
+A.T. Perry (NO),3.2210414,NO
+Drake London (ATL),3.21114,ATL
+Mack Hollins (ATL),3.1667194,ATL
+Greg Dortch (ARI),3.1218746,ARI
+Wan'Dale Robinson (NYG),3.0946357,NYG
+Jalen Reagor (NE),3.0476341,NE
+DJ Chark Jr. (CAR),3.0430532,CAR
+Van Jefferson (ATL),3.0221112,ATL
+Trent Taylor (CHI),2.9565923,CHI
+JuJu Smith-Schuster (NE),2.9144914,NE
+Russell Gage (TB),2.8764067,TB
+Jonathan Mingo (CAR),2.8641934,CAR
+KhaDarel Hodge (ATL),2.7686956,ATL
+John Metchie III (HOU),2.727409,HOU
+Ihmir Smith-Marsette (CAR),2.7185662,CAR
+Denzel Mims (PIT),2.6817882,PIT
+Keelan Cole Sr. (LV),2.6485763,LV
+Zach Pascal (ARI),2.5723479,ARI
+Daurice Fountain (DET),2.5509198,DET
+Zay Jones (JAC),2.549748,JAC
+Richie James Jr. (KC),2.5471704,KC
+Jalen Guyton (LAC),2.4936273,LAC
+Robert Woods (HOU),2.468836,HOU
+Tre'Quan Smith (DEN),2.4082267,DEN
+James Proche II (CLE),2.4009717,CLE
+Andrei Iosivas (CIN),2.3918588,CIN
+Jalen Brooks (DAL),2.3896804,DAL
+Jakeem Grant Sr. (CLE),2.3856568,CLE
+Olamide Zaccheaus (PHI),2.382592,PHI
+Robbie Chosen (MIA),2.3751662,MIA
+Hunter Renfrow (LV),2.349983,LV
+Greg Ward (PHI),2.338101,PHI
+Ben Skowronek (LAR),2.3314366,LAR
+Justin Jefferson (MIN),2.327945,MIN
+Jamal Agnew (JAC),2.3117564,JAC
+Justin Hardee (NYJ),2.298348,NYJ
+Cam Sims (CAR),2.2868817,CAR
+Derius Davis (LAC),2.270686,LAC
+Keith Kirkwood (NO),2.254453,NO
+Mike Williams (LAC),2.2196221,LAC
+Julio Jones (PHI),2.2124853,PHI
+Phillip Dorsett II (DEN),2.1913817,DEN
+Trey Palmer (TB),2.1854923,TB
+N'Keal Harry (MIN),2.17242,MIN
+Cooper Kupp (LAR),2.1567569,LAR
+Braxton Berrios (MIA),2.1565611,MIA
+Alex Bachman (HOU),2.1559813,HOU
+Easop Winston Jr. (SEA),2.1528924,SEA
+River Cracraft (MIA),2.0716295,MIA
+Josh Reynolds (DET),2.063664,DET
+Allen Lazard (NYJ),2.0612092,NYJ
+Scotty Washington (BAL),2.0526097,BAL
+Tre Tucker (LV),2.0406115,LV
+Byron Pringle (WAS),2.037967,WAS
+Michael Wilson (ARI),2.0275936,ARI
+Tyler Scott (CHI),1.9755933,CHI
+Gunner Olszewski (NYG),1.9632353,NYG
+Tim Patrick (DEN),1.9486462,DEN
+Chris Conley (SF),1.933564,SF
+Simi Fehoko (LAC),1.9305305,LAC
+Taj Smith (IND),1.8918558,IND
+Devin Duvernay (BAL),1.8748811,BAL
+Jauan Jennings (SF),1.8680391,SF
+Rod Harper (PHI),1.8574827,PHI
+Parker Washington (JAC),1.8567266,JAC
+Jalen Nailor (MIN),1.854505,MIN
+Ray-Ray McCloud III (SF),1.8479487,SF
+Charlie Jones (CIN),1.8319699,CIN
+Equanimeous St. Brown (CHI),1.8240452,CHI
+Alex Erickson (LAC),1.8203175,LAC
+Alec Pierce (IND),1.812997,IND
+Skyy Moore (KC),1.8090339,KC
+Lawrence Cager (NYG),1.7946529,NYG
+Cedric Tillman (CLE),1.7870353,CLE
+Willie Snead IV (SF),1.7575678,SF
+DeVante Parker (NE),1.7562704,NE
+Justyn Ross (KC),1.7552223,KC
+Ty Montgomery II (NE),1.733424,NE
+Mason Kinsey (TEN),1.7261084,TEN
+Freddie Swain (MIA),1.6979713,MIA
+Kristian Wilkerson (LV),1.6564857,LV
+Quez Watkins (PHI),1.6252955,PHI
+Xavier Hutchinson (HOU),1.6135737,HOU
+Erik Ezukanma (MIA),1.6126039,MIA
+Marquez Callaway (NO),1.5867132,NO
+Lynn Bowden Jr. (NO),1.5674082,NO
+Xavier Gipson (NYJ),1.5163627,NYJ
+Cody White (SEA),1.5118562,SEA
+Juwann Winfree (IND),1.5014067,IND
+Tyrie Cleveland (IND),1.4979576,IND
+Kadarius Toney (KC),1.4893253,KC
+Isaiah McKenzie (IND),1.4811249,IND
+Stanley Morgan Jr. (CIN),1.4778003,CIN
+Steven Sims Jr. (HOU),1.4758397,HOU
+Bryce Ford-Wheaton (NYG),1.4740822,NYG
+Anthony Schwartz (MIA),1.4665016,MIA
+Donovan Peoples-Jones (DET),1.4646944,DET
+Malik Heath (GB),1.4483693,GB
+Quintez Cephus (DET),1.4364096,DET
+Justin Shorter (BUF),1.4309049,BUF
+Treylon Burks (TEN),1.3969476,TEN
+Deven Thompkins (TB),1.3939167,TB
+Mike Strachan (CAR),1.3928913,CAR
+Rakim Jarrett (TB),1.3910033,TB
+DJ Turner (LV),1.3737524,LV
+Malik Taylor (NYJ),1.3621969,NYJ
+Quinton Bell (MIA),1.3482546,MIA
+Jalen Camp (CAR),1.3455622,CAR
+Tre Nixon (NE),1.3206184,NE
+Seth Williams (JAC),1.3137237,JAC
+Tim Jones (JAC),1.3068508,JAC
+Andy Isabella (BUF),1.303679,BUF
+Tyler Johnson (LAR),1.2959596,LAR
+Britain Covey (PHI),1.291362,PHI
+Davion Davis (HOU),1.2836188,HOU
+Onrea Jones (CHI),1.2832878,CHI
+Laquon Treadwell (BAL),1.2718418,BAL
+Tylan Wallace (BAL),1.2526662,BAL
+Miles Boykin (PIT),1.2295148,PIT
+Frank Darby (ATL),1.2271467,ATL
+Deonte Harty (BUF),1.2249938,BUF
+D.J. Montgomery (IND),1.2161909,IND
+Ashton Dulin (IND),1.2108299,IND
+Jaylon Moore (JAC),1.1924368,JAC
+Austin Trammell (LAR),1.1656973,LAR
+Chase Claypool (MIA),1.1610378,MIA
+Dez Fitzpatrick (PIT),1.157855,PIT
+Trishton Jackson (MIN),1.1511245,MIN
+Nsimba Webster (CHI),1.1463019,CHI
+Trent Sherfield (BUF),1.1422545,BUF
+Shi Smith (TEN),1.1277395,TEN
+David Sills (DEN),1.1109711,DEN
+Samori Toure (GB),1.103702,GB
+Cody Thompson (SEA),1.0997893,SEA
+Lil'Jordan Humphrey (DEN),1.0608677,DEN
+Dan Chisena (ARI),1.0576261,ARI
+Andre Baccellia (ARI),1.0566859,ARI
+Tyquan Thornton (NE),1.0487953,NE
+Mecole Hardman Jr. (KC),1.0457762,KC
+Tarik Black (BAL),1.0362228,BAL
+Laviska Shenault Jr. (CAR),1.0341526,CAR
+David Bell (CLE),1.0218056,CLE
+Randall Cobb (NYJ),1.0133169,NYJ
+Allen Robinson II (PIT),1.0093181,PIT
+Nate Hughes (JAC),0.9981146,JAC
+Demario Ballard (DET),0.9961985,DET
+John Stephens Jr. (DAL),0.9861884,DAL
+Tyron Billy-Johnson (DAL),0.98126197,DAL
+Chris Henry (CIN),0.9496754,CIN
+Bo Melton (GB),0.94019973,GB
+Mitchell Tinsley (WAS),0.9372593,WAS
+Terrace Marshall Jr. (CAR),0.9308656,CAR
+Calvin Austin III (PIT),0.92825717,PIT
+Marquise Goodwin (CLE),0.9254818,CLE
+Jordan Matthews (CAR),0.9246076,CAR
+Danny Gray (SF),0.91521406,SF
+Cornell Powell (KC),0.9150938,KC
+Jesse Matthews (HOU),0.90579844,HOU
+Malik Knowles (MIN),0.90367365,MIN
+Tom Kennedy (DET),0.86808795,DET
+Martavis Bryant (DAL),0.857792,DAL
+Michael Woods II (CLE),0.85740674,CLE
+Keelan Doss (LAC),0.83225584,LAC
+Cephus Johnson III (TB),0.8320301,TB
+Maurice Alexander (DET),0.82854044,DET
+Braylon Sanders (MIA),0.8189665,MIA
+Zavier Scott (IND),0.81601286,IND
+Brandon Johnson (DEN),0.8156477,DEN
+Tyrell Shavers (BUF),0.8057383,BUF
+Jacob Harris (JAC),0.7897617,JAC
+Josh Ali (ATL),0.7884958,ATL
+Shaquan Davis (NO),0.78775054,NO
+Kayshon Boutte (NE),0.766801,NE
+Daylen Baldwin (MIN),0.75082797,MIN
+Ronnie Bell (SF),0.7451208,SF
+Kwamie Lassiter II (CIN),0.74437994,CIN
+Jason Brownlee (NYJ),0.74353254,NYJ
+Antoine Green (DET),0.7396426,DET
+Daniel Arias (ARI),0.71267915,ARI
+Dee Eskridge (SEA),0.7066951,SEA
+Terrell Bynum (LAC),0.6985989,LAC
+Cade Johnson (SEA),0.6978293,SEA
+Kearis Jackson (TEN),0.6968863,TEN
+Chris Blair (ATL),0.69646597,ATL
+Kendric Pryor (CIN),0.68940115,CIN
+Johnny Johnson III (HOU),0.68220675,HOU
+Velus Jones Jr. (CHI),0.6627633,CHI
+Jalen Virgil (DEN),0.66262555,DEN
+Patrick Edwards (DET),0.6601528,DET
+Bobby Wade (WAS),0.65677905,WAS
+Sam Giguere (NYG),0.65271854,NYG
+Duece Watts (PIT),0.65217143,PIT
+Joseph Ngata (PHI),0.65121067,PHI
+Jalen Cropper (DAL),0.6305386,DAL
+Tay Martin (SF),0.61729765,SF
+Austin Watkins Jr. (CLE),0.6167318,CLE
+Devon Allen (PHI),0.6161896,PHI
+Brycen Tremayne (WAS),0.61326003,WAS
+Lucky Jackson (MIN),0.6081686,MIN
+Shedrick Jackson (CIN),0.6074068,CIN
+Michael Bandy (DEN),0.5997501,DEN
+Raleigh Webb (TB),0.595503,TB
+Dylan Drummond (NYG),0.5925664,NYG
+Kazmeir Allen (WAS),0.57401574,WAS
+Dax Milne (WAS),0.5617083,WAS
+Jaelon Darden (CLE),0.55248594,CLE
+Eron Riley (NYJ),0.55082357,NYJ
+Xavier Smith (LAR),0.53860325,LAR
+Colton Dowell (TEN),0.5385751,TEN
+Kaden Davis (ARI),0.526684,ARI
+Lance Long (SF),0.51800674,SF
+Tre'Shaun Harrison (TEN),0.5152227,TEN
+Bryan Thompson (BUF),0.5117942,BUF
+Grant DuBose (GB),0.5083173,GB
+Ryan Miller (TB),0.48202333,TB
+Ethan Fernea (IND),0.47741404,IND
+Jared Wayne (HOU),0.47098833,HOU
+David Durden (DAL),0.46376437,DAL
+Thayer Thomas (MIN),0.45304722,MIN
+Lance McCutcheon (NYJ),0.4515285,NYJ
+Sean Ryan (BAL),0.44993418,BAL
+Montrell Washington (KC),0.44364947,KC
+Kenny McKinley (DEN),0.441758,DEN
+Irvin Charles (NYJ),0.4358694,NYJ
+Jontre Kirklin (NO),0.42938882,NO
+Rodney Williams (PIT),0.42651635,PIT
+Derek Wright (CAR),0.42002553,CAR
+Marko Mitchell (MIN),0.4189577,MIN
+Elijah Cooks (JAC),0.41062284,JAC
+T.J. Luther (NE),0.4101571,NE
+Matthew Slater (NE),0.4098342,NE
+Dareke Young (SEA),0.4073643,SEA
+Maurice Purify (CIN),0.4066162,CIN
+Mike Furrey (WAS),0.40656605,WAS
