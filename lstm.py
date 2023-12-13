@@ -358,7 +358,7 @@ for pos in positions:
         return top_k_acc
 
 
-    k = 12  # Choose the value of k for top-k accuracy
+    k = 36  # Choose the value of k for top-k accuracy
     top_k_acc = top_k_accuracy_metric(Y_test_rescaled[:,0], predictions_rescaled[:, 0], k)
     print(f"Top-{k} Accuracy: {top_k_acc}")
 
