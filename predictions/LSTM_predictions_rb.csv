@@ -1,33 +1,129 @@
 PLAYER,Predicted_FPTS,TEAM
-Jaylen Warren (PIT),2.783313,PIT
-Kareem Hunt (CLE),2.6489995,CLE
-Brian Robinson Jr. (WAS),2.5546095,WAS
-Joe Mixon (CIN),2.4330914,CIN
-Saquon Barkley (NYG),2.4124327,NYG
-Derrick Henry (TEN),2.3871477,TEN
-Austin Ekeler (LAC),2.3729112,LAC
-Rachaad White (TB),2.3371713,TB
-Christian McCaffrey (SF),2.3117797,SF
-D'Andre Swift (PHI),2.3108165,PHI
-Isiah Pacheco (KC),2.1985798,KC
-Rhamondre Stevenson (NE),2.1370156,NE
-Alexander Mattison (MIN),2.1204576,MIN
-Gus Edwards (BAL),2.0942829,BAL
-Aaron Jones (GB),2.0828342,GB
-James Cook (BUF),2.0550487,BUF
-Jonathan Taylor (IND),2.0544484,IND
-Josh Jacobs (LV),2.035652,LV
-Kenneth Walker III (SEA),2.0355914,SEA
-Breece Hall (NYJ),2.0291836,NYJ
-Travis Etienne Jr. (JAC),1.9595228,JAC
-Raheem Mostert (MIA),1.9324085,MIA
-Devin Singletary (HOU),1.9014648,HOU
-D'Onta Foreman (CHI),1.879021,CHI
-Tyler Allgeier (ATL),1.8770504,ATL
-Alvin Kamara (NO),1.8298101,NO
-Royce Freeman (LAR),1.8016331,LAR
-Javonte Williams (DEN),1.7207521,DEN
-Tony Pollard (DAL),1.665316,DAL
-David Montgomery (DET),1.5346276,DET
-Chuba Hubbard (CAR),1.4383386,CAR
-Emari Demercado (ARI),1.0173587,ARI
+Christian McCaffrey (SF),16.18556,SF
+De'Von Achane (MIA),15.480703,MIA
+Kyren Williams (LAR),14.811224,LAR
+Jahmyr Gibbs (DET),14.215555,DET
+David Montgomery (DET),13.867286,DET
+Raheem Mostert (MIA),13.494771,MIA
+Rachaad White (TB),13.32528,TB
+Josh Jacobs (LV),13.158319,LV
+Derrick Henry (TEN),13.025634,TEN
+Alvin Kamara (NO),12.29497,NO
+Jonathan Taylor (IND),11.960221,IND
+Isiah Pacheco (KC),11.928738,KC
+Travis Etienne Jr. (JAC),11.782605,JAC
+Gus Edwards (BAL),11.330553,BAL
+Saquon Barkley (NYG),10.960096,NYG
+Keaton Mitchell (BAL),10.573408,BAL
+Zack Moss (IND),10.464656,IND
+Brian Robinson Jr. (WAS),10.370742,WAS
+Austin Ekeler (LAC),10.344907,LAC
+Kenneth Walker III (SEA),10.30585,SEA
+Tony Pollard (DAL),10.254927,DAL
+James Cook (BUF),10.014789,BUF
+Devin Singletary (HOU),9.679368,HOU
+Breece Hall (NYJ),9.570324,NYJ
+Bijan Robinson (ATL),9.548748,ATL
+Joe Mixon (CIN),9.545127,CIN
+D'Andre Swift (PHI),9.472831,PHI
+Kareem Hunt (CLE),9.356326,CLE
+Javonte Williams (DEN),9.131805,DEN
+Jerome Ford (CLE),9.122629,CLE
+Najee Harris (PIT),8.945589,PIT
+Rhamondre Stevenson (NE),8.894585,NE
+Royce Freeman (LAR),8.403244,LAR
+D'Onta Foreman (CHI),8.038213,CHI
+Jaylen Warren (PIT),7.9101424,PIT
+C.J. Ham (MIN),7.9052453,MIN
+James Conner (ARI),7.8012195,ARI
+Jaleel McLaughlin (DEN),7.7718797,DEN
+Alexander Mattison (MIN),7.6765084,MIN
+Tyrion Davis-Price (SF),7.1113076,SF
+Antonio Gibson (WAS),6.915355,WAS
+Jordan Mason (SF),6.8155046,SF
+Chuba Hubbard (CAR),6.790806,CAR
+Craig Reynolds (DET),6.4070935,DET
+Dameon Pierce (HOU),6.2719307,HOU
+Darrynton Evans (MIA),6.217626,MIA
+AJ Dillon (GB),6.1660566,GB
+Nick Chubb (CLE),6.1248083,CLE
+Jeff Wilson Jr. (MIA),6.0252304,MIA
+Khalil Herbert (CHI),5.9743023,CHI
+Ezekiel Elliott (NE),5.6342945,NE
+Justice Hill (BAL),5.5634093,BAL
+Aaron Jones (GB),5.526422,GB
+Emari Demercado (ARI),5.3301883,ARI
+Latavius Murray (BUF),5.234522,BUF
+Melvin Gordon III (BAL),5.221125,BAL
+Miles Sanders (CAR),5.218121,CAR
+Ty Chandler (MIN),5.167131,MIN
+Samaje Perine (DEN),5.0228143,DEN
+Salvon Ahmed (MIA),4.9388986,MIA
+Tyler Allgeier (ATL),4.779958,ATL
+Raheem Blackshear (CAR),4.722666,CAR
+Tyjae Spears (TEN),4.6226745,TEN
+Zach Charbonnet (SEA),4.272351,SEA
+Kyle Juszczyk (SF),4.2259493,SF
+Pierre Strong Jr. (CLE),4.1060467,CLE
+Chris Brooks (MIA),4.096987,MIA
+Jerick McKinnon (KC),4.0144825,KC
+Joshua Kelley (LAC),3.7457275,LAC
+Kendre Miller (NO),3.721176,NO
+Roschon Johnson (CHI),3.6570702,CHI
+Kenneth Gainwell (PHI),3.638886,PHI
+Rico Dowdle (DAL),3.6089947,DAL
+Ty Johnson (BUF),3.530825,BUF
+D'Ernest Johnson (JAC),3.4410586,JAC
+Cam Akers (MIN),3.3820355,MIN
+Tony Jones Jr. (ARI),3.3784657,ARI
+Ronnie Rivers (LAR),3.3294735,LAR
+Matt Breida (NYG),3.282806,NYG
+Boston Scott (PHI),3.1201503,PHI
+Chris Rodriguez Jr. (WAS),3.0650282,WAS
+Nick Bawden (NYJ),2.8823726,NYJ
+Trayveon Williams (CIN),2.8596847,CIN
+Dare Ogunbowale (HOU),2.8169107,HOU
+Emanuel Wilson (GB),2.622241,GB
+Keaontay Ingram (KC),2.6056175,KC
+Patrick Taylor Jr. (GB),2.5534754,GB
+Ameer Abdullah (LV),2.5466065,LV
+Jamaal Williams (NO),2.4609215,NO
+Hunter Luepke (DAL),2.382616,DAL
+Cordarrelle Patterson (ATL),2.3824668,ATL
+Dalvin Cook (NYJ),2.3628786,NYJ
+Patrick Ricard (BAL),2.3573189,BAL
+Zamir White (LV),2.3308187,LV
+Derrick Gore (WAS),2.3051841,WAS
+Damien Harris (BUF),2.2594059,BUF
+Clyde Edwards-Helaire (KC),2.1729531,KC
+Tank Bigsby (JAC),2.1637926,JAC
+DeeJay Dallas (SEA),2.1285183,SEA
+Gary Brightwell (NYG),2.0228071,NYG
+Trey Sermon (IND),1.9595921,IND
+Sean Tucker (TB),1.8965145,TB
+Israel Abanikanda (NYJ),1.8254364,NYJ
+Chase Brown (CIN),1.7662717,CIN
+Elijah Mitchell (SF),1.701224,SF
+Michael Carter (ARI),1.526808,ARI
+Chase Edmonds (TB),1.4515892,TB
+Jakob Johnson (LV),1.4481343,LV
+Eric Gray (NYG),1.3964089,NYG
+Zonovan Knight (DET),1.3786674,DET
+Keith Smith (ATL),1.372737,ATL
+Isaiah Spiller (LAC),1.3195245,LAC
+Kenyan Drake (GB),1.3180275,GB
+Adam Prentice (NO),1.237566,NO
+Khari Blasingame (CHI),1.1935445,CHI
+Kene Nwangwu (MIN),1.1503663,MIN
+Jashaun Corbin (NYG),1.1405404,NYG
+Deuce Vaughn (DAL),1.0260062,DAL
+Ke'Shawn Vaughn (TB),1.0102543,TB
+Alec Ingold (MIA),0.93987757,MIA
+Rashaad Penny (PHI),0.9338769,PHI
+Michael Burton (DEN),0.8830075,DEN
+Mike Boone (HOU),0.76370543,HOU
+Zach Evans (LAR),0.7636324,LAR
+La'Mical Perine (KC),0.72209996,KC
+Ty Montgomery II (NE),0.64996064,NE
+Alex Armah Jr. (WAS),0.4830205,WAS
+Deon Jackson (NYG),-0.17378484,NYG

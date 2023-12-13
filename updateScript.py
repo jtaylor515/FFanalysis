@@ -12,16 +12,13 @@ input_nb_files = [
 ]
 
 # Output directory for Python script files
-output_directory = "python_scripts"
+output_directory = os.getcwd()  # Use the current working directory
 
 def extract_code_cells(input_file, output_directory):
-    # Create the output directory if it doesn't exist
-    os.makedirs(output_directory, exist_ok=True)
-
     with open(input_file, "r") as notebook_file:
         notebook = nbformat.read(notebook_file, as_version=4)
 
-    output_file = os.path.join(output_directory, os.path.splitext(os.path.basename(input_file))[0] + ".py")
+    output_file = os.path.splitext(os.path.basename(input_file))[0] + ".py"
 
     with open(output_file, "w") as python_file:
         for cell in notebook.cells:
